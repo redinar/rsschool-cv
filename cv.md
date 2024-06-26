@@ -31,3 +31,9 @@ This is why I decided to become a frontend-developer, as a long dream from a chi
 - **Courses:**
   - HTML and CSS courses on the code-basics.com (completed)
   - JavaScript/Front-end. Stage 0 at rs.school (in progress)
+
+---
+
+### Languages:
+- Russian - Native
+- English - B1/B2 Intermediate/Upper-intermediate
