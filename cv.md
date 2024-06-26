@@ -15,3 +15,19 @@ Currently I am working in company Elektrokomplekt LLC as product-manager in mark
 I am grateful for all experience I've gained in this company and also for all good people I met here. But also I understand that I need to move on to grow as a person and in my career. 
 
 This is why I decided to become a frontend-developer, as a long dream from a childhood. And there is no best time as now to pursuit this dream. So I am going to do my best to become efficient developer in future.
+
+---
+
+### Skills and Proficiency:
+
+- Git, GitHub
+- VS Code
+- HTML5, CSS3
+
+---
+
+### Education:
+- **University:** Kazan National Research Technological University, Computer science and engineering, 2016-2020
+- **Courses:**
+  - HTML and CSS courses on the code-basics.com (completed)
+  - JavaScript/Front-end. Stage 0 at rs.school (in progress)
