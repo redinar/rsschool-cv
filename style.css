@@ -1,0 +1,10 @@
+html {
+    background-color: white;
+}
+
+body {
+    background-color: blanchedalmond;
+    max-width: 66vw;
+    height: 66vh;
+    margin: 4.6vh auto;
+}
