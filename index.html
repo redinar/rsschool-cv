@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Dinar Farhutdinov</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header-list">
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#code">Code example</a>
+                </li>
+                <li>
+                    <a href="#projects">My projects</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#lang">Languages</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="left-side">
+            <img src="../rsschool-cv/img/ava.jpg" alt="My photo" class="ava">
+            <div class="left-bar">
+                <section class="contacts" id="contacts">
+                    <h2 class="title">Contact information:</h2>
+                    <div class="line"></div>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            Phone:
+                            <br>
+                            +7 (987) 175 02-25
+                        </li>
+                        <li class="contact-item">
+                            Working email:
+                            <br>
+                            <a href="mailto:farhutdinov@smart-shop.pro">farhutdinov@smart-shop.pro</a>
+                        </li>
+                        <li class="contact-item">
+                            Personal email:
+                            <br>
+                            <a href="mailto:farhutdinoff@yandex.ru">farhutdinoff@yandex.ru</a>
+                        </li>
+                        <li class="contact-item">
+                            Adress:
+                            <br>
+                            Kazan, Russia
+                        </li>
+                        <li class="contact-item">
+                            Discord:
+                            <br>
+                            dinar (denarey)#3109
+                        </li>
+                    </ul>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="title">Education:</h2>
+                    <div class="line"></div>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <strong>2016 - 2020</strong>
+                        </li>
+                        <li class="contact-item">
+                            Kazan National Research Technological University - Computer science and engineering
+                        </li>
+                        <li class="contact-item">
+                            <strong>2024 - Present</strong>
+                        </li>
+                        <li class="contact-item">
+                            The Rolling Scopes School - JS/FE Pre-Scool 2024Q2
+                        </li>
+                    </ul>
+                </section>
+                <section class="languages" id="lang">
+                    <h2 class="title">Languages</h2>
+                    <div class="line"></div>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                           Russian - native 
+                        </li>
+                        <li class="contact-item">
+                            English - B1/B2 Intermediate/Upper-intermediate
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="right-side">
+            <section class="page-title">
+                <h1 class="main-title">Dinar Farhutdinov</h1>
+                <h2 class="profession-name">Product-manager</h2>
+            </section>
+            <section class="about-me" id="about-me">
+                <h2 class="title">About me:</h2>
+                <div class="line"></div>
+                <p>Currently workin as a product-manager in company Elektrokomplekt LLC.</p>
+                Trying to become a good frontend-developer, and I will put all my efforts to it.
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="title">Skills:</h2>
+                <div class="line"></div>
+                <ul class="skills-list">
+                    <li>HTML/CSS - basics</li>
+                    <li>JavaScript - basics</li>
+                    <li>English - B1/B2</li>
+                    <li>Figma - basics</li>
+                    <li>Git - basics</li>
+                </ul>
+            </section>
+            <section class="code-example" id="code">
+                <h2 class="title">Code example:</h2>
+                <div class="line"></div>
+                <details>
+                    <summary>Kata <a href="https://www.codewars.com/kata/517abf86da9663f1d2000003">"Convert string to camel case"</a> at Codewars</summary>
+                        <pre>
+                            <code> 
+function toCamelCase(str){
+    let camelStr = '';
+    let i = 0;
+    while (i &#60; str.length) {
+        if (str[i] === '-' || str[i] === '_') {
+            camelStr = camelStr + str[i+1].toUpperCase();
+            i += 2;
+        } else {
+            camelStr = camelStr + str[i];
+            i += 1;
+        }
+    }
+    return camelStr;
+}
+                            </code>
+                        </pre>
+                </details>   
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="title">My projects:</h2>
+                <div class="line"></div>
+                <a href="https://redinar.github.io/rsschool-cv/">CV project at RS school</a>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="github">
+            <img src="img/github-logo.png" class="github-logo" alt="github-logo">
+            <a href="https://github.com/redinar" class="github-link">My GitHub</a>
+        </div>
+        <div>
+            2024
+        </div>
+        <a href="https://rs.school/courses/javascript-preschool-ru"><img src="img/rsschool-logo.svg" class="rss-logo" alt="rss-logo"></a>
+    </footer>
+</body>
+</html>

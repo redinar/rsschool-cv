@@ -1,0 +1,147 @@
+html {
+    background-color: white;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin: 5rem auto;
+    box-shadow: 0rem 3rem 1.7rem 2rem #d5d5d5;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 145, 55);
+    min-height: 5rem;
+    margin: 0;
+    font-size: 2rem;
+    padding-left: 0;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 500ms ease;
+}
+
+.header-list a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.main-content{
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30rem;
+    box-sizing: border-box;
+    background-color: rgb(237 237 237);
+    font-size: 1.6rem;
+    padding-bottom: 5rem;
+}
+
+.ava{
+    width: 30rem;
+}
+
+.left-bar{
+    box-sizing: border-box;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.line{
+    width: 10rem;
+    height: 0.4rem;
+    background-color: rgb(255, 145, 55);
+    margin-bottom: 1.66rem;
+    border-radius: 2rem;
+}
+
+.contact-list{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.contact-item{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.contact-item:last-child{
+    margin-bottom: 0;
+}
+
+.right-side{
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-size: 1.6rem;
+}
+
+.page-title{
+    padding-top: 5rem;
+    box-sizing: border-box;
+    height: 32.294rem;
+}
+
+.main-title{
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.profession-name{
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.skills-list{
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    height: 10rem;
+    background-color: #1e232c;
+    align-items: center;
+    font-size: 1.6rem;
+    width: 100rem;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.github{
+    display: inline-flex;
+    align-items: center;
+}
+
+.github-logo{
+    width: 8.8rem;
+    height: 4.5rem;
+}
+
+.github-link{
+    color: white;
+}
+
+.rss-logo{
+    width: 8.6rem;
+    height: 3.2rem;
+}
