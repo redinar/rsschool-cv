@@ -1,6 +1,6 @@
 # Dinar Farhutdinov
 
-### Product-manager
+### Frontend-developer
 ### Contact information:
 
 **Phone:** +7 987 175-02-25  
@@ -10,11 +10,9 @@
 ---
 
 ### About Me:
-Currently I am working in company Elektrokomplekt LLC as product-manager in marketing department. In this position I have to communicate a lot with different people and sometimes from other countries. Thanks to this I developed a lot of usefull skills such us ability to efficiently work in team and resolve difficult situations in limited time.
+Currently working as a product-manager in company Elektrokomplekt LLC.
 
-I am grateful for all experience I've gained in this company and also for all good people I met here. But also I understand that I need to move on to grow as a person and in my career. 
-
-This is why I decided to become a frontend-developer, as a long dream from a childhood. And there is no best time as now to pursuit this dream. So I am going to do my best to become efficient developer in future.
+Trying to become a good frontend-developer, and I will put all my efforts to it.
 
 ---
 
